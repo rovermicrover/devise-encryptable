@@ -14,3 +14,5 @@ gem 'pry'
 gem 'pry-doc'
 gem 'pry-nav'
 gem 'awesome_print'
+
+gem "scrypt", "~> 1.1.0"
