@@ -19,7 +19,7 @@ module Devise
       autoload :Base, 'devise/encryptable/encryptors/base'
       autoload :ClearanceSha1, 'devise/encryptable/encryptors/clearance_sha1'
       autoload :RestfulAuthenticationSha1, 'devise/encryptable/encryptors/restful_authentication_sha1'
-      autoload :SCrypt, 'devise/encryptors/scrypt'
+      autoload :SCrypt, 'devise/encryptable/encryptors/scrypt'
       autoload :Sha1, 'devise/encryptable/encryptors/sha1'
       autoload :Sha512, 'devise/encryptable/encryptors/sha512'
     end
